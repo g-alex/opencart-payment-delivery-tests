@@ -1,4 +1,5 @@
 # OpenCart payment & delivery tests
+[![CI](https://github.com/g-alex/opencart-payment-delivery-tests/actions/workflows/ci.yml/badge.svg)](https://github.com/g-alex/opencart-payment-delivery-tests/actions/workflows/ci.yml)
 
 Pytest suite for OpenCart: delivery API (Europarcel), payment webhooks (Mobilpay/Netopia), SQL checks, optional UI smoke.
 
