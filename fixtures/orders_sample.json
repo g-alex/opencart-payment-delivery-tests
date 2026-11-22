@@ -1,0 +1,121 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "status": "Complete",
+      "status_id": 5,
+      "currency": "RON",
+      "total": 450.0,
+      "subtotal": 450.0,
+      "shipping_total": 0.0,
+      "discount_total": 0.0,
+      "date_created": "2026-02-13 13:43:22",
+      "payment_method": "Credit Card / Debit Card (Netopia)",
+      "payment_code": "mobilpay",
+      "is_cod": false,
+      "customer": {
+        "email": "qa@example.com",
+        "firstname": "QA",
+        "lastname": "Tester",
+        "telephone": "0700000000"
+      },
+      "shipping": {
+        "firstname": "QA",
+        "lastname": "Tester",
+        "company": "",
+        "address_1": "Test Street 1",
+        "address_2": "",
+        "city": "Bucuresti",
+        "zone": "Bucuresti",
+        "zone_code": "B",
+        "postcode": "010101",
+        "country": "Romania",
+        "country_code": "RO"
+      },
+      "shipping_method": {
+        "code": "europarcel.home",
+        "name": "Europarcel Home"
+      },
+      "europarcel": {
+        "service_name": "home",
+        "carrier_id": 3,
+        "service_id": 1,
+        "selected_locker": null
+      },
+      "line_items": [
+        {
+          "name": "Pearl Necklace",
+          "quantity": 1,
+          "price": 450.0,
+          "total": 450.0,
+          "weight": 0.2,
+          "length": 10.0,
+          "width": 8.0,
+          "height": 3.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "status": "Complete",
+      "status_id": 5,
+      "currency": "RON",
+      "total": 200.0,
+      "subtotal": 200.0,
+      "shipping_total": 0.0,
+      "discount_total": 0.0,
+      "date_created": "2026-02-28 09:57:58",
+      "payment_method": "Cash On Delivery",
+      "payment_code": "cod",
+      "is_cod": true,
+      "customer": {
+        "email": "cod@example.com",
+        "firstname": "COD",
+        "lastname": "Buyer",
+        "telephone": "0711111111"
+      },
+      "shipping": {
+        "firstname": "COD",
+        "lastname": "Buyer",
+        "company": "",
+        "address_1": "Locker Ave 5",
+        "address_2": "",
+        "city": "Cluj",
+        "zone": "Cluj",
+        "zone_code": "CJ",
+        "postcode": "400000",
+        "country": "Romania",
+        "country_code": "RO"
+      },
+      "shipping_method": {
+        "code": "europarcel.locker",
+        "name": "Europarcel Locker"
+      },
+      "europarcel": {
+        "service_name": "locker",
+        "carrier_id": 6,
+        "service_id": 2,
+        "selected_locker": {
+          "type": "easybox",
+          "carrier_id": 6,
+          "id": "BX-1"
+        }
+      },
+      "line_items": [
+        {
+          "name": "Pearl Earrings",
+          "quantity": 1,
+          "price": 200.0,
+          "total": 200.0,
+          "weight": 0.05,
+          "length": 5.0,
+          "width": 5.0,
+          "height": 2.0
+        }
+      ]
+    }
+  ],
+  "total": 2,
+  "page": 1,
+  "limit": 100
+}
